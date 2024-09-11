@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail</title>
+
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+
+
+<body>
+
+    <header>The header has no positioning property set. This leaves the header with the position property of static. This works because the header is fine just sitting on the top of the page.</header>
+
+    <nav>The nav bar has the position property of fixed. This leaves the bar at the same part of the screen even when scrolling. This helps users find their way around the website from any page of the website. The nav bar also has the top and left properties set to 170 and 35px to place it centered under the header.</nav>
+
+    <div>
+
+        <div class="articles">
+
+            <article>The article elements have the position property of relative. This works because the two artice elements are inside of a wrapper. The relative positioning property helps to place these elements inside of their parent elements.The top property is set to 15px to line it up near the top of its parent div</article>
+
+            <article></article>
+
+        </div>
+
+    <aside>The aside element has a position property of absolute. This lets the element exist outside of the normal flow of a document. This is useful because the aside is off to the side from most of the page. The top property is set to 235 px and the left property is set to 50% to bring the element to the side of the articles and under the nav bar.</aside>
+
+    </div>
+
+    <footer>The footer has the position property set to fixed. This will let the footer remain visible on the website as users scroll. The bottom property is set to 0px to keep the footer at the bottom of the viewport.</footer>
+    
+</body>
+</html>
